@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
-import VideoPlayer from './Components/VideoPlayer'
+import MenuBar from './Components/menuBarTop';
 
 function App() {
   return (
     <div className="App">
       <main>
-      Titulo de prueba para la App
-      </main>
       <div className="DivVideo">
-        <VideoPlayer/>
+        <MenuBar/>
       </div>
+      </main>
+
     </div>
   )
 }

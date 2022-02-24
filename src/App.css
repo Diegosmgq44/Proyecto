@@ -3,10 +3,28 @@
 }
 
 main{
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .DivVideo{
-  font-size: 0.5em;
-  color: #fff000;
+  font-size: 1.5em;
+  color: blue;
+}
+
+.menuBar{
+  display: grid;
+  grid-template-columns: repeat(1fr, 3);
+}
+
+.logoTwitter{
+  margin: none;
+  grid-column-start: 2;
+  width: 15%;
+  height: auto;
+}
+
+.avatarDefault{
+  grid-column-start: 0;
+  width: 15%;
+  height: auto;
 }
