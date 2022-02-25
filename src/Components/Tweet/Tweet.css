@@ -1,0 +1,32 @@
+.tweet{
+    margin-top: 10px;
+    border-top: 1px solid rgba(167, 167, 167, 0.5);
+    border-bottom: 1px solid rgb(167, 167, 167, 0.5);
+    display: grid;
+    grid-template-columns: 20px, 300px;
+}
+
+.contenido{
+    margin-top: 10px;
+    grid-column-start: 2;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.users{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.avatarDefault{
+    width: 40px;
+    height: 40px;
+}
+
+.comment{
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
